@@ -1,5 +1,13 @@
+import BannerWithText from '../components/banner/BannerWithText';
+import { MetaTags } from '../global/MetaTags';
+
 const Home = () => {
-  return <h1 className="text-3xl font-bold text-indigo-600">Hello world!</h1>;
+  return (
+    <>
+      <MetaTags title="Elo7 - Trabalhe Conosco" description="Trabalhe no Elo7" />
+      <BannerWithText />
+    </>
+  );
 };
 
 export default Home;

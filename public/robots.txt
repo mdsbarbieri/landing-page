@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://landing-page-mdsbarbieri.vercel.app/
+
+# Sitemaps
+Sitemap: https://landing-page-mdsbarbieri.vercel.app/sitemap.xml
