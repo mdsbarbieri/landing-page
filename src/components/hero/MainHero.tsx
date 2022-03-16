@@ -11,6 +11,7 @@ const MainHero = () => {
           src={headerImage}
           alt="Pessoas do time elo7 vestindo camisetas amarelas e calças verdes com as mãos levantadas"
           layout="fill"
+          quality={100}
           objectFit="cover"
         />
         <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-12 md:mb-24 lg:mb-36 text-shadow">

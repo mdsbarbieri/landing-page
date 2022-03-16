@@ -32,7 +32,7 @@ const Offers = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-14 mb-14">
         {activities.map(({ title, description, image }) => (
           <div key={title} className="flex flex-col items-center justify-center">
-            <Image src={image} alt={title} width={150} height={150} />
+            <Image src={image} alt={title} width="150" height="150" quality={100} />
             <h3 className="uppercase font-bold text-gray-600 text-xl py-8 flex-shrink">{title}</h3>
             <p className="text-gray-600 text-justify flex-grow">{description}</p>
           </div>
@@ -40,7 +40,13 @@ const Offers = () => {
       </div>
       <Link href="/atividades" text="Saiba mais" />
       <div className="relative h-72 w-full">
-        <Image src={BottomPicture} alt="Feira de artesanatos promovida pela Elo7" layout="fill" objectFit="cover" />
+        <Image
+          src={BottomPicture}
+          alt="Feira de artesanatos promovida pela Elo7"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
       </div>
     </div>
   );

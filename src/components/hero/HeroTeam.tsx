@@ -11,7 +11,7 @@ const HeroTeam = () => {
       <div className="max-w-screen-lg m-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 space-y-8 lg:space-x-8 lg:space-y-0">
           <div className="h-full aspect-video relative">
-            <Image src={VideoPlaceholder} alt="Foto de perfil" layout="fill" />
+            <Image src={VideoPlaceholder} alt="Foto de perfil" layout="fill" quality={100} />
           </div>
           <div>
             <h2 className="uppercase font-bold text-gray-600 text-xl">Palavra do CEO</h2>
@@ -28,10 +28,38 @@ const HeroTeam = () => {
             Conheça nosso time <br /> fora de Série
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 relative">
-            <Image src={CamilaPicture} alt="Foto de perfil Camila" width={220} height={220} objectFit="contain" />
-            <Image src={GutoPicture} alt="Foto de perfil Guto" width={220} height={220} objectFit="contain" />
-            <Image src={DavidPicture} alt="Foto de perfil David" width={220} height={220} objectFit="contain" />
-            <Image src={BeatrizPicture} alt="Foto de perfil Beatriz" width={220} height={220} objectFit="contain" />
+            <Image
+              src={CamilaPicture}
+              alt="Foto de perfil Camila"
+              width="220"
+              height="220"
+              objectFit="contain"
+              quality={100}
+            />
+            <Image
+              src={GutoPicture}
+              alt="Foto de perfil Guto"
+              width="220"
+              height="220"
+              objectFit="contain"
+              quality={100}
+            />
+            <Image
+              src={DavidPicture}
+              alt="Foto de perfil David"
+              width="220"
+              height="220"
+              objectFit="contain"
+              quality={100}
+            />
+            <Image
+              src={BeatrizPicture}
+              alt="Foto de perfil Beatriz"
+              width="220"
+              height="220"
+              objectFit="contain"
+              quality={100}
+            />
           </div>
         </div>
       </div>
